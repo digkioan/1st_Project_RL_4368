@@ -1,7 +1,0 @@
-How to run the tests:
-
-python evaluate_car_racing_models.py --only flatten #Run flatten model, with render == ON
-python evaluate_car_racing_models.py --only flatten --no-render-#Run flatten model, with render == OFF
-
-python evaluate_car_racing_models.py --only cnn #Run CNN model, with render == ON
-python evaluate_car_racing_models.py --only cnn --no-render-#Run CNN model, with render == OFF

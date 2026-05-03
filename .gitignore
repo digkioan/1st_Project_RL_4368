@@ -29,3 +29,6 @@ videos/*.webm
 runs/
 videos/*.webm
 *.pt
+
+.codex
+CLI_Instructions.txt
