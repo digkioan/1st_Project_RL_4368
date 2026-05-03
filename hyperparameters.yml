@@ -1,0 +1,34 @@
+car_racing_flatten:
+  env_id: CarRacing-v3
+  continuous: false
+  learning_rate_a: 5e-05 #0.0001 was by default
+  discount_factor_g: 0.99
+  network_sync_rate: 3000 #1000 was by default
+  replay_memory_size: 50000
+  mini_batch_size: 128 #64 was by default
+  epsilon_init: 1.0
+  epsilon_decay: 0.995
+  epsilon_min: 0.05
+  stop_on_reward: 700.0
+  hidden_dim: 256
+  max_episodes: 1000
+
+car_racing_cnn:
+  env_id: CarRacing-v3
+  continuous: false
+  learning_rate_a: 0.0001
+  discount_factor_g: 0.97 #0.99
+  network_sync_rate: 500 #1000 was by default
+  replay_memory_size: 50000
+  mini_batch_size: 64 #remained the same
+  epsilon_init: 1.0
+  epsilon_decay: 0.995
+  epsilon_min: 0.05
+  stop_on_reward: 700.0
+  checkpoint_interval: 250
+  frame_stack: 4
+  image_size: 84
+  use_grayscale: true
+  cnn_hidden_dim: 512
+  grad_clip_norm: 10.0
+  max_episodes: 1000

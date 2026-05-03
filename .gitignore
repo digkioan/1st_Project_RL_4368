@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Training outputs
+runs/
+*.pt
+*.pth
+*.pkl
+*.ckpt
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+**.fdb_latexmk
+
+# Large training artifacts
+runs/
+videos/*.webm
+*.pt
+
+# Large training artifacts
+runs/
+videos/*.webm
+*.pt
