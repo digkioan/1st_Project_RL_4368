@@ -351,18 +351,5 @@ Possible improvements include:
 
 ---
 
-# Project Structure
 
-```
-.
-├── models/
-├── checkpoints/
-├── training/
-├── evaluation/
-├── videos/
-├── utils/
-├── plots/
-├── README.md
-└── requirements.txt
-```
 
